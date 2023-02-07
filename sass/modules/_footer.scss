@@ -1,0 +1,58 @@
+#footer {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-navy);
+}
+
+#footer__up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer h2 {
+  font-size: var(--font-regular) !important;
+  color: var(--color-pink);
+  margin-bottom: 15px;
+}
+
+#footer h3 {
+  font-size: var(--font-small) !important;
+  color: var(--color-pink);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+// Footer Nav
+
+#footer__navbar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.footer__navbar__menu__item {
+  margin-right: 50px;
+}
+
+#footer_navbar__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+// Newslatter Box
+
+#newslatter {
+  width: 250px;
+  height: 250px;
+  background-color: var(--color-yellow);
+}
+
+// Footer Social 
+
+
+// Copyright
+#copyright {
+  margin-left: 7em;
+}
