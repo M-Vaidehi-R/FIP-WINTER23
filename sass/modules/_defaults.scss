@@ -64,6 +64,17 @@ ul {
   display: none;
 }
 
+/* Grid */
+
+
+.two-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+
+
 
 /* Typography */
 
