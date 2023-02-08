@@ -41,12 +41,75 @@
   flex-direction: column;
 }
 
-// Newslatter Box
+// Newsletter Box
 
-#newslatter {
+#newsletter {
   width: 250px;
   height: 250px;
+}
+
+.newsletter__up {
+  width: 250px;
+  height: 200px;
   background-color: var(--color-yellow);
+}
+
+.newsletter__up h4 {
+  color: var(--color-green);
+  padding: 20px 0 15px 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: var(--weight-semi-bold);
+}
+
+.newsletter__up__name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.newsletter__up__name input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  color: var(--color-green);
+}
+
+.newsletter__up__email {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.newsletter__up__email input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  color: var(--color-green);
+}
+
+.newsletter__up p {
+  font-size: 10px;
+  margin: auto;
+  color: var(--color-green);
+  max-width: 220px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: var(--weight-semi-bold);
+}
+
+.newsletter__down {
+  width: 250px;
+  height: 50px;
+  background-color: var(--color-green);
+}
+
+.newsletter__down input {
+  width: 250px;
+  height: 50px;
+  background-color: var(--color-green);
+  color: var(--color-black);
+  border: none;
 }
 
 // Footer Social 
