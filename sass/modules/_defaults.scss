@@ -15,21 +15,19 @@
   --color-black: #000000;
 
   /* Font size */
-  --font-super-large: 48px;
-  --font-little-large: 37px;
-  --font-large: 28px;
-  --font-medium: 24px;
-  --font-regular: 18px;
-  --font-small: 16px;
-  --font-micro: 14px;
+  --font-large: 26px;
+  --font-medium: 22px;
+  --font-regular: 15px;
+  --font-small: 12px;
+  --font-micro: 10px;
 
   /* Font weight */
   --weight-bold: 700;
-  --weight-semi-bold: 600;
-  --weight-medium: 500;
+  // --weight-semi-bold: 600;
+  // --weight-medium: 500;
   --weight-regular: 400;
-  --weight-light: 300;
-  --weight-extra-light: 200;
+  // --weight-light: 300;
+  // --weight-extra-light: 200;
 
   /* Size */
 
@@ -46,7 +44,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
 }
 
@@ -63,6 +61,14 @@ ul {
 
 li {
   list-style: none;
+}
+
+#default_width {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
 }
 
 .hidden {
@@ -84,19 +90,18 @@ li {
 /* Typography */
 
 h2 {
-  font-size: var(--font-medium);
-  font-weight: var(--weight-semi-bold);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
   margin: 0;
 }
 
-h3 {
-  font-size: var(--font-regular);
-  font-weight: var(--weight-regular);
-  margin: 0;
-}
+// h3 {
+//   font-size: var(--font-small);
+//   font-weight: var(--weight-bold);
+//   margin: 0;
+// }
 
 p {
-  font-size: var(--font-micro);
-  font-weight: var(--weight-light);
+  font-weight: var(--weight-regular);
   margin: 0;
 }

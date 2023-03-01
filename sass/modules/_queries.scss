@@ -1,21 +1,5 @@
 @media screen and (min-width: 1540px) {
   
-  /* Main Section */
-  .whatwedo__bg {
-    background-image: url("/images/desktop_bg.png");
-    height: 1000px;
-  }
-
-  .whatwedo__left {
-    margin-top: 280px;
-    margin-left: 180px;
-  }
-  
-  .whatwedo__right {
-    margin-top: 550px;
-    margin-left: 100px;
-  }
-  
 }
 
 
@@ -31,7 +15,7 @@
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 950px) {
   
   
 }

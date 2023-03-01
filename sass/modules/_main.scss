@@ -2,40 +2,110 @@
 #whatwedo {
   background-color: var(--color-beige);
   display: grid;
-}
-
-#whatwedo h2 {
-  max-width: 500px;
-  margin-bottom: 20px;
-}
-
-#whatwedo p {
-  max-width: 500px;
-  line-height: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .whatwedo__bg {
-  background-image: url("/images/bg_2200.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 800px;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding: 100px 60px 0 60px;
 }
+
+#whatwedo h2 {
+  font-size: var(--font-large);
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+#whatwedo p {
+  font-size: var(--font-small);
+  line-height: 18px;
+}
+
+#whatwedo button {
+  color: var(--color-black);
+  border: none;
+  padding: 8px;
+  font-weight: var(--weight-bold);
+}
+
+// Left Part
 
 .whatwedo__left {
   float: left;
-  margin-top: 200px;
-  margin-left: 260px;
+  width: 550px;
 }
+
+.whatwedo__left__text p {
+  margin-bottom: 20px;
+  max-width: 520px;
+}
+
+.whatwedo__left__text button {
+  background-color: var(--color-green);
+}
+
+.whatwedo__left__btn {
+  text-align: center;
+  margin-right: 80px;
+}
+
+.whatwedo__left__illustration {
+  background-color: var(--color-pink);
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+// Right Part
 
 .whatwedo__right {
   float: right;
-  margin-top: 400px;
+  width: 550px;
 }
 
-.whatwedo__right h2 {
-  color: var(--color-yellow);
+.whatwedo__right__flag {
+  background-color: var(--color-pink);
+  width: 450px;
+  height: 250px;
+  margin: auto;
+}
+
+.whatwedo__right__text {
+  text-align: end;
+  margin-top: 50px;
+}
+
+.whatwedo__right__text button {
+  background-color: var(--color-pink);
+}
+
+.whatwedo__right__text p {
+  margin-top: 20px;
+}
+
+// Chat App
+#chatApp {
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+  margin-top: 70px;
+}
+
+#chatApp h2 {
+  font-size: 20px !important;
+  color: var(--color-green) !important;
+  width: 500px;
+  text-align: end;
+}
+
+#chatApp img {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-pink);
+  margin-left: 20px;
 }
 
