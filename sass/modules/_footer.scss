@@ -1,18 +1,9 @@
 #footer {
   padding: 30px 40px;
-  display: flex;
-  flex-direction: column;
   background-color: var(--color-navy);
 }
 
-#footer__up {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 #footer h2 {
-  font-size: var(--font-regular) !important;
   color: var(--color-pink);
   margin-bottom: 15px;
 }
@@ -20,7 +11,7 @@
 #footer h3 {
   font-size: var(--font-small) !important;
   color: var(--color-pink);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -28,17 +19,41 @@
 
 #footer__navbar {
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-}
-
-.footer__navbar__menu__item {
-  margin-right: 50px;
-}
-
-#footer_navbar__menu {
-  display: flex;
   flex-direction: column;
+}
+
+#footer__navbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+
+// .footer__navbar__menu__item {
+//   margin-right: 50px;
+// }
+
+#footer__navbar__logo {
+  width: 300px;
+  height: 100px;
+  background-color: var(--color-beige);
+  margin: auto;
+}
+
+#copyright {
+  text-align: center;
+}
+
+// Click to contact
+#footer__clickTo {
+  margin-top: 70px;
+  text-align: center;
+  width: 120px;
+}
+
+#footer__clickTo h2 {
+  font-size: var(--font-medium);
+  line-height: 30px;
 }
 
 // Newsletter Box
@@ -113,9 +128,8 @@
 }
 
 // Footer Social 
-
-
-// Copyright
-#copyright {
-  margin-left: 7em;
+.footer__social__item h2 {
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-pink);
 }

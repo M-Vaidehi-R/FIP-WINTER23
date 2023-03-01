@@ -11,15 +11,18 @@
 #navbar__menu {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 600px;
 }
 
-.navbar__menu__item {
-  margin-right: 40px;
-}
+// .navbar__menu__item {
+//   margin-right: 50px;
+// }
 
-.navbar__menu__item:last-child {
-  margin-right: 0px;
-}
+// .navbar__menu__item:last-child {
+//   margin-right: 0px;
+// }
 
 #navbar__social {
   display: flex;
@@ -27,12 +30,12 @@
 }
 
 #navbar__social img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .navbar__social__item {
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
 .navbar__social__item:last-child {

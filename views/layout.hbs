@@ -2,20 +2,22 @@
 <html>
   <head>
     <title>{{title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css"/>
   </head>
   <body>
     <h1 class="hidden">Welcome to Play Fair!</h1>
     <nav id="navbar">
       <div id="navbar__logo">
-        <a href="#"><img src="/images/" alt="Play Fair Logo"></a>
+        <a href="/"><img src="/images/" alt="Play Fair Logo"></a>
       </div>
       <ul id="navbar__menu">
-        <li class="navbar__menu__item"><a href="">WHAT WE DO</a></li>
-        <li class="navbar__menu__item"><a href="">GET SUPPORT</a></li>
-        <li class="navbar__menu__item"><a href="">WAYS TO HELP</a></li>
-        <li class="navbar__menu__item"><a href="">NEWSLETTER</a></li>
-        <li class="navbar__menu__item"><a href="">BLOG</a></li>
+        <li class="navbar__menu__item"><a href="/"><h2>WHAT WE DO</h2></a></li>
+        <li class="navbar__menu__item"><a href="/views/getsupport.hbs"><h2>GET SUPPORT</h2></a></li>
+        <li class="navbar__menu__item"><a href="/views/waystohelp.hbs"><h2>WAYS TO HELP</h2></a></li>
+        <li class="navbar__menu__item"><a href="/views/blognews.hbs"><h2>BLOG & NEWS</h2></a></li>
       </ul>
       <ul id="navbar__social">
         <li class="navbar__social__item"><a href=""><img src="/images/facebook_logo.svg" alt="Facebook Logo"></a></li>
@@ -26,55 +28,27 @@
       </ul>
     </nav>
 
-    <section id="whatwedo">
-      <div class="whatwedo__bg">
-        <div class="two-items">
-          <div class="whatwedo__left">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore harum esse placeat, ex rem incidunt dolorum dicta cupiditate! Vitae illo, nemo possimus adipisci velit ea ad asperiores id cum?</p>
-          </div>
-          <div class="whatwedo__right">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore harum esse placeat, ex rem incidunt dolorum dicta cupiditate! Vitae illo, nemo possimus adipisci velit ea ad asperiores id cum?</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    {{{ body }}}
 
     <section id="footer">
-      <div id="footer__up">
+      <div id="default_width">
         <nav id="footer__navbar">
-          <li class="footer__navbar__menu__item"><a href="#"><h2>WHAT WE DO</h2></a></li>
-          <ul id="footer_navbar__menu">
+          <ul id="footer__navbar__menu">
+            <li class="footer__navbar__menu__item"><a href="#"><h2>WHAT WE DO</h2></a></li>
             <li class="footer__navbar__menu__item"><a href=""><h2>GET SUPPORT</h2></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>We</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>are</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>play</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>fair</h3></a></li>
-          </ul>
-          <ul id="footer_navbar__menu">
             <li class="footer__navbar__menu__item"><a href=""><h2>WAYS TO HELP</h2></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>We</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>are</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>play</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>fair</h3></a></li>
+            <li class="footer__navbar__menu__item"><a href=""><h2>BLOG & NEWS</h2></a></li>
           </ul>
-          <ul id="footer_navbar__menu">
-            <li class="footer__navbar__menu__item"><a href=""><h2>NEWSLETTER</h2></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>We</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>are</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>play</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>fair</h3></a></li>
-          </ul>
-          <li class="footer__navbar__menu__item"><a href=""><h2>BLOG</h2></a></li>
-          <ul id="footer_navbar__menu">
-            <li class="footer__navbar__menu__item"><a href=""><h2>CONTACT</h2></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>We</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>are</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>play</h3></a></li>
-            <li class="footer__navbar__menu__item"><a href=""><h3>fair</h3></a></li>
-          </ul>
+          <div id="footer__navbar__logo">
+            <a><img src="" alt=""></a>
+          </div>
+          <div id="copyright">
+            <h2>COPYRIGHT 2012-2023 TERMSFEED. ALL RIGHTS RESERVED.</h2>
+          </div>
         </nav>
+        <div id="footer__clickTo">
+          <a href="./team"><h2>CLICK HERE TO CONTACT US!</h2></a>
+        </div>
         <div id="newsletter">
           <div class="newsletter__up">
             <h4><b>SIGN-UP FOR OUR NEWSLETTER!</b></h4>
@@ -99,14 +73,7 @@
           <li class="footer__social__item"><a href=""><h3>YOUTUBE</h3></a></li>
         </ul>
       </div>
-      <div id="copyright">
-        <h2>COPYRIGHT 2012-2023 TERMSFEED. ALL RIGHTS RESERVED.</h2>
-      </div>
     </section>
 
-
-
-
-    {{!-- {{{body}}} --}}
   </body>
 </html>
