@@ -39,25 +39,26 @@
   width: 550px;
 }
 
-.whatwedo__left__text p {
+.whatwedo__up__text p {
   margin-bottom: 20px;
   max-width: 520px;
 }
 
-.whatwedo__left__text button {
+.whatwedo__up__text button {
   background-color: var(--color-green);
 }
 
-.whatwedo__left__btn {
-  text-align: center;
-  margin-right: 80px;
+.whatwedo__down__text {
+  margin-top: 100px;
 }
 
-.whatwedo__left__illustration {
+.whatwedo__down__text button {
   background-color: var(--color-pink);
-  width: 500px;
-  height: 400px;
-  margin-top: 50px;
+}
+
+.whatwedo__down__text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 // Right Part
@@ -74,38 +75,32 @@
   margin: auto;
 }
 
-.whatwedo__right__text {
-  text-align: end;
-  margin-top: 50px;
-}
-
-.whatwedo__right__text button {
+.whatwedo__left__illustration {
   background-color: var(--color-pink);
-}
-
-.whatwedo__right__text p {
-  margin-top: 20px;
+  width: 450px;
+  height: 400px;
+  padding-top: 50px;
+  margin: auto;
 }
 
 // Chat App
 #chatApp {
-  display: flex;
-  flex-direction: row;
-  text-align: end;
-  margin-top: 70px;
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
 }
 
-#chatApp h2 {
-  font-size: 20px !important;
-  color: var(--color-green) !important;
-  width: 500px;
-  text-align: end;
-}
+// #chatApp h2 {
+//   font-size: 20px !important;
+//   color: var(--color-green) !important;
+//   width: 500px;
+//   text-align: end;
+// }
 
 #chatApp img {
   width: 60px;
   height: 60px;
   background-color: var(--color-pink);
   margin-left: 20px;
+  cursor: pointer;
 }
-
