@@ -1,0 +1,149 @@
+#waystohelp {
+  background-color: var(--color-beige);
+  display: grid;
+  display: flex;
+  justify-content: center;
+}
+
+#waystohelp h2 {
+  font-size: var(--font-super-large);
+  margin-bottom: 50px;
+  line-height: 40px;
+  color: var(--color-navy);
+  text-align: center;
+}
+
+.waystohelp__bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1300px;
+}
+
+.waystohelp__left__text {
+  margin-top: 120px;
+}
+
+.color_pink {
+  color: var(--color-pink) !important; 
+}
+
+
+/* DOWN */
+.waystohelp__left__down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+// Illustration Left
+.waystohelp__illu__left {
+  width: 50px;
+  height: 130px;
+  margin-top: 230px;
+  background-color: var(--color-light-gray);
+}
+
+// Form
+.waystohelp__form__up {
+  background-color: var(--color-yellow);
+  width: 420px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.waystohelp__form__up input {
+  border: none;
+  padding: 8px;
+  color: var(--color-green);
+  margin-bottom: 10px;
+}
+
+.waystohelp__form__up__item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.waystohelp__form__up__item1 input {
+  width: 175px;
+}
+
+.waystohelp__form__up__items input {
+  width: 360px;
+}
+
+.waystohelp__form__checkbox {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.waystohelp__form__checkbox input[type=checkbox] {
+  background-color: var(--color-white);
+  margin-right: 12px;
+}
+
+.waystohelp__form__checkbox p {
+  color: var(--color-green);
+  font-size: 12px;
+}
+
+.waystohelp__form__up__para {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.waystohelp__form__up__para p {
+  color: var(--color-green);
+  font-size: 15px;
+}
+
+.waystohelp__form__down {
+  margin-bottom: 100px;
+}
+
+.waystohelp__form__down input[type=submit] {
+  width: 420px;
+  border: none;
+  background-color: var(--color-green);
+  padding: 20px;
+}
+
+
+
+// Illustration Right
+.waystohelp__illu__right {
+  width: 50px;
+  height: 130px;
+  margin-top: 230px;
+  background-color: var(--color-light-gray);
+  
+}
+
+
+/* RIGHT PART */
+.waystohelp__right__text {
+  background-color: var(--color-green);
+  margin-left: 50px;
+  padding: 30px;
+  text-align: end !important;
+}
+
+.waystohelp__right__text h3 {
+  font-size: var(--font-medium);
+  color: var(--color-yellow);
+  font-weight: var(--weight-bold);
+  margin-bottom: 10px;
+}
+
+.waystohelp__right__text p {
+  color: var(--color-white);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.waystohelp__right__text__item {
+  margin-bottom: 25px;
+}
