@@ -52,6 +52,7 @@ body {
 a {
   text-decoration: none;
   color: var(--color-navy);
+  cursor: pointer;
 }
 
 ul {
@@ -84,6 +85,14 @@ li {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
+
+.three-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+
 
 
 
