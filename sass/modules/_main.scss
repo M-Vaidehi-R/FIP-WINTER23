@@ -153,6 +153,7 @@
   position: fixed;
   bottom: 50px;
   right: 80px;
+  z-index: 20;
 }
 
 // #chatApp h2 {
@@ -168,4 +169,9 @@
   background-color: var(--color-pink);
   margin-left: 20px;
   cursor: pointer;
+  z-index: 20;
+}
+
+.whatwedo__down__text__second {
+  display: none;
 }

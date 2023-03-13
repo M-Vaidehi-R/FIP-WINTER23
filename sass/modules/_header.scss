@@ -16,6 +16,17 @@
   width: 600px;
 }
 
+.navbar__toggle-btn {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  font-size: 40px;
+  color: var(--color-pink);
+  cursor: pointer;
+  display: none;
+}
+
+
 #navbar__logo {
   width: 200px;
 }

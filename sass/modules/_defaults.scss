@@ -77,13 +77,25 @@ li {
   display: none;
 }
 
+.disNo {
+  display: none;
+}
+
+
 /* Grid */
 
 
+// .two-items {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   justify-content: center;
+// }
+
 .two-items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
 }
 
 .three-items {
