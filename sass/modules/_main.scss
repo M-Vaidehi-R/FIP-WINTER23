@@ -10,7 +10,7 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: 1300px;
-  padding: 100px 60px 0 60px;
+  padding: 0 50px;
 }
 
 #whatwedo h2 {
@@ -36,6 +36,7 @@
 .whatwedo__left {
   float: left;
   width: 550px;
+  padding: 100px 0;
 }
 
 .whatwedo__up__text p {
@@ -48,7 +49,7 @@
 }
 
 .whatwedo__down__text {
-  margin-top: 100px;
+  margin-top: 180px;
 }
 
 .whatwedo__down__text button {
@@ -65,15 +66,80 @@
 .whatwedo__right {
   float: right;
   width: 550px;
+  padding: 60px 0 0 0;
 }
 
+
+// FLAG 
 .whatwedo__right__flag {
-  background-color: var(--color-pink);
-  width: 450px;
-  height: 250px;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 50px 20px;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--color-white);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--color-white);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+// .swiper-pagination-bullet {
+//   padding: 5px;
+// }
+
+// .swiper-pagination-bullet-active {
+// 	background-color: var(--color-white);
+// }
+
+
+
+
+// ILLUSTRATION
 .whatwedo__left__illustration {
   background-color: var(--color-pink);
   width: 450px;
