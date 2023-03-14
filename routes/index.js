@@ -40,7 +40,19 @@ const team = {
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'FIP TEAM PAGE' });
+  res.render('index', { title: 'PLAY FAIR' });
+});
+
+router.get('/getsupport', function (req, res, next) {
+  res.render('getsupport', { title: 'PLAY FAIR: GET SUPPORT' });
+});
+
+router.get('/waystohelp', function (req, res, next) {
+  res.render('waystohelp', { title: 'PLAY FAIR: WAYS TO HELP' });
+});
+
+router.get('/blognews', function (req, res, next) {
+  res.render('blognews', { title: 'PLAY FAIR: BLOG & NEWS' });
 });
 
 router.get('/team/:member', function (req, res) {

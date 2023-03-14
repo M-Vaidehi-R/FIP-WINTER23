@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.waystohelp__left {
+  float: left;
+  width: 600px;
+}
+
 .waystohelp__bg {
   display: flex;
   flex-direction: row;
@@ -99,9 +104,9 @@
   font-size: 15px;
 }
 
-.waystohelp__form__down {
-  margin-bottom: 100px;
-}
+// .waystohelp__form__down {
+//   margin-bottom: 100px;
+// }
 
 .waystohelp__form__down input[type=submit] {
   width: 420px;
@@ -123,6 +128,11 @@
 
 
 /* RIGHT PART */
+.waystohelp__right {
+  float: right;
+  width: 600px;
+}
+
 .waystohelp__right__text {
   background-color: var(--color-green);
   margin-left: 50px;
