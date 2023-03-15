@@ -26,13 +26,17 @@
   display: none;
 }
 
-
 #navbar__logo {
   width: 200px;
 }
 
 .navbar__menu__item {
+  padding: 8px 12px;
   margin-top: 15px;
+}
+
+.navbar__menu__item h2:hover {
+  color: var(--color-pink);
 }
 
 #navbar__social {
@@ -53,4 +57,5 @@
 .navbar__social__item:last-child {
   margin-right: 0px;
 }
+
 

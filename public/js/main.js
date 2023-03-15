@@ -44,4 +44,6 @@
   navbarToggleBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
   });
+
+
 })()
