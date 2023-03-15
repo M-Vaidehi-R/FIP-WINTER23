@@ -22,9 +22,13 @@
   flex-direction: column;
 }
 
-// .footer__navbar__menu__item {
-//   margin-right: 50px;
-// }
+.footer__navbar__menu__item h2:hover {
+  color: var(--color-yellow) !important;
+}
+
+#newsletter__mobile {
+  display: none;
+}
 
 #footer__navbar__logo {
   width: 350px;
@@ -43,7 +47,6 @@
 #footer__navbar__menu {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
 }
 
 #footer__navbar__menu h2 {
@@ -130,6 +133,7 @@
 #footer__social {
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 .footer__social__item {

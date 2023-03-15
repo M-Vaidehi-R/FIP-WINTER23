@@ -42,10 +42,13 @@
 
 // Illustration Left
 .waystohelp__illu__left {
-  width: 50px;
-  height: 130px;
-  margin-top: 230px;
-  background-color: var(--color-light-gray);
+  margin-top: 165px;
+}
+
+.waystohelp__illu__left img {
+  width: 100px;
+  position: relative;
+  right: 30px; 
 }
 
 // Form
@@ -119,11 +122,12 @@
 
 // Illustration Right
 .waystohelp__illu__right {
-  width: 50px;
-  height: 130px;
-  margin-top: 230px;
-  background-color: var(--color-light-gray);
-  
+  margin-top: 220px;
+  margin-left: 10px;
+}
+
+.waystohelp__illu__right img {
+  width: 170px;
 }
 
 

@@ -141,36 +141,27 @@
 
 // ILLUSTRATION
 .whatwedo__left__illustration {
-  background-color: var(--color-pink);
-  width: 450px;
-  height: 400px;
-  padding-top: 50px;
   margin: auto;
+  width: 450px;
+}
+
+.whatwedo__left__illustration img {
+  width: 400px;
 }
 
 // Chat App
 #chatApp {
   position: fixed;
-  bottom: 50px;
-  right: 80px;
+  bottom: 30px;
+  right: 50px;
   z-index: 20;
 }
-
-// #chatApp h2 {
-//   font-size: 20px !important;
-//   color: var(--color-green) !important;
-//   width: 500px;
-//   text-align: end;
-// }
 
 #chatApp img {
   width: 60px;
   height: 60px;
-  background-color: var(--color-pink);
-  margin-left: 20px;
-  cursor: pointer;
-  z-index: 20;
 }
+
 
 .whatwedo__down__text__second {
   display: none;
