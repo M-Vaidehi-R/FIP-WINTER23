@@ -99,8 +99,8 @@ li {
 }
 
 .three-items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  // grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 }
 
