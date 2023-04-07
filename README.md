@@ -1,7 +1,6 @@
-<p>
-<img src="public/images/readme.jpg" width="100% style="max-width:100%;">
-</p>
-<h1 text-align="center">FIP Team Page</h1>
+![download](https://user-images.githubusercontent.com/90973094/230642887-5cc53e87-9832-49a6-b0a7-66a5a674b623.jpg)
+
+<h1 text-align="center">Play Fair</h1>
 Hi there! This is a small team assignment based on your FIP teampage, where our value is in Empowering the youth, Compassion, Empathy, understanding, being an ally for the LGBTQ+ and mission is Educating the youth in becoming allies with LGBTQ+ and bring awareness to LGBTQ+ bullying in sports.
 
 
@@ -38,7 +37,7 @@ All you need is a browser with a working Internet connection to view our works. 
 </ul>
 
 <h3>Usage<h3>
-Check the main branch, clone/download the project (cd to your chosen directory)
+
 
 <h2>License: MIT</h2>
 
