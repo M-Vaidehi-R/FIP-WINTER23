@@ -10,6 +10,7 @@ var getsupportRouter = require('./routes/getsupport');
 var waystohelpRouter = require('./routes/waystohelp');
 var blogRouter = require('./routes/blognews');
 var teamRouter = require('./routes/team');
+var loginRouter = require('./routes/adminlogin');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/getsupport', getsupportRouter);
 app.use('/waystohelp', waystohelpRouter);
 app.use('/blognews', blogRouter);
 app.use('/team', teamRouter);
+app.use('/adminlogin', loginRouter);
 
 
 // catch 404 and forward to error handler

@@ -20,6 +20,10 @@ router.get('/blognews', function (req, res, next) {
   res.render('blognews', { title: 'PLAY FAIR: BLOG & NEWS' });
 });
 
+router.get('/adminlogin', function (req, res, next) {
+  res.render('adminlogin', { title: 'PLAY FAIR: ADMIN LOGIN' });
+});
+
 router.get('/team/:member', function(req, res) {
   console.log(req.params.member);
 
