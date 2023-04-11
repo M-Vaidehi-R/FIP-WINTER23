@@ -85,14 +85,19 @@
           <li class="footer__social__item"><a href=""><img src="/images/footer_twitter_logo.svg"></a></li>
           <li class="footer__social__item"><a href=""><img src="/images/footer_youtube_logo.svg"></a></li>
         </ul>
+
+
         <div id="newsletter">
+          <form method="POST" action="http://localhost:8000/newsletter/create">
           <div class="newsletter__up">
             <h4><b>SIGN-UP FOR OUR NEWSLETTER!</b></h4>
             <div class="newsletter__up__name">
-              <input type="text" placeholder="Full Name">
+              <label hidden for="name">Full Name:</label>
+              <input type="text" placeholder="Full Name" name="name">
             </div>
             <div class="newsletter__up__email">
-              <input type="text" placeholder="Email">
+              <label hidden for="email">Email:</label>
+              <input type="text" placeholder="Email" name="email">
             </div>
             <p>BY CREATING AN ACCOUNT YOU AGREE TO OUR TERMS OF SERVICE AND PRIVACY POLICY</p>
           </div>
@@ -100,7 +105,10 @@
             <input type="submit" value="CONTINUE">
           </div>
         </div>
+        </form>
       </div>
+
+
       <div id="copyright__down">
         <h2>COPYRIGHT 2012-2023 TERMSFEED. ALL RIGHTS RESERVED.</h2>
       </div>
