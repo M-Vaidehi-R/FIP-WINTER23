@@ -1,47 +1,46 @@
-![download](https://user-images.githubusercontent.com/90973094/230642887-5cc53e87-9832-49a6-b0a7-66a5a674b623.jpg)
+#### Database file has been added to the database folder
 
-<h1 text-align="center">Play Fair</h1>
-Hi there! This is a small team assignment based on your FIP teampage, where our value is in Empowering the youth, Compassion, Empathy, understanding, being an ally for the LGBTQ+ and mission is Educating the youth in becoming allies with LGBTQ+ and bring awareness to LGBTQ+ bullying in sports.
+# PLAY FAIR - CAMPAIGN AGAINST THE BULLYING OF LGBTQ+ COMMUNITY IN SPORTS
 
+## Project Description:
+Welcome to the backend repository for our Final Integrated Project! This program was built using the Lumen Framework and features CMS (Content Management System) functionalities for volunteer signups. With this backend, admins can easily manage volunteers, their signups, and related data. We hope you find this project useful and thank you for checking out our code!
 
-<h2>Requirements:</h2>
-<ul>
-<li>Design a team bio page with freedom in creativity (the look and feel), but the focus of the assignment is using routes with Node and Express.</li>
-<li>Use routes with Node and Express to display one page for each team member. The content can be static - no database, Vue or front-end JavaScript required, but navigatipn controls are required</li>
-<li>Create a theme or template each team member can use to populate with their content. Each team member is responsible for populating this template as their own page IE john.html, joe.html, nick.html. You’ll be using routing to display the individual bio content on a click /loading that person’s page</li>
-</ul>
+## About PlayFair:
 
 
+Thank you for visiting the Play Fair campaign website, where we are dedicated to promoting equality and inclusivity in sports. Our mission is to create a safe and supportive environment for all athletes, regardless of their gender, sexual orientation, or identity.
+
+We firmly believe that every athlete deserves the opportunity to compete and succeed on a level playing field, free from discrimination or bias. By embracing diversity and celebrating the unique talents and perspectives of all individuals, we can create a better world for everyone. Join us in our mission to make sports a place where everyone can play fair and succeed together.
+
+![logo](https://user-images.githubusercontent.com/90973094/231343658-b645f251-9632-4d3e-bd00-84c112cee41f.svg)
 
 
-
-<h2>Meet the Team:</h2>
-<ul>
-<li>Tonya Oliver- Project Manager <a href="https://github.com/Tonya33">@Tonya33</a></li>
-<li>Sian Kim- Graphic Design <a href="https://github.com/sianmosey">@sianmosey</a></li>
-<li>Mamatha Ramesh- Web Dev- Backend <a href="https://github.com/M-Vaidehi-R">@M-Vaidehi-R</a></li>
-<li>Doyeon Kim- Web Dev- Frontend <a href="https://github.com/Doyeon-k-fanshawe">@Doyeon-k-fanshawe</a></li>
-<li>Evica Mai - Motion Design/3D<a href="https://github.com/evica-ai">@evica-ai</a></li>
-</ul>
-
-<h3>Prerequisites</h3>
-All you need is a browser with a working Internet connection to view our works. Enjoy meeting or knowing more about me!
-
-<h3>Built with:</h3>
-<ul>
-<li><a href="https://www.w3.org/TR/2008/WD-html5-20080122/">HTML 5</a></li>
-<li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations">CSS Animations</a></li>
-<li><a href="https://www.w3schools.com/js/DEFAULT.asp">Javascript</a></li>
-<li><a href="https://www.adobe.com/ca/creativecloud/buy/students.html">Adobe After Effects and Illustrator</a></li>
-</ul>
-
-<h3>Usage<h3>
+## About Team: 
 
 
-<h2>License: MIT</h2>
+As a group of passionate individuals, we are dedicated to fighting against the bullying and discrimination that the LGBTQ+ community faces in sports. We believe that everyone has the right to pursue their dreams and compete at the highest level, without fear of harassment or prejudice. Through our activism and advocacy, we are committed to creating a more inclusive and welcoming environment for all athletes, regardless of their sexual orientation or gender identity. Join us in our fight for equality and together we can create a brighter future for everyone in the sports community.
 
-![1000_F_430558688_LfXWD3WiP1EXdWgfkNkZoJo7a2SyN7LZ](https://user-images.githubusercontent.com/90973094/212151785-e956d443-11c4-498a-8468-975ac02ab026.jpg)
 
-## License
+## Meet the Team
+
+* [Tonya Oliver](https://github.com/Tonya33) - Project manager
+* [Sian kim](https://github.com/sianmosey) - Graphic Designer
+* [Evica Mai](https://github.com/evica-ai) - Motion Designer
+* [Doyeon Kim](https://github.com/dyk-doyeon) - Frontend Developer
+* [Mamatha Ramesh](https://github.com/M-Vaidehi-R) - Backend Developer
+
+### This is the backend repository for our project. Click [here](https://www.example.com) for the frontend repository.
+
+## Usage
+* Clone the repository
+* Install the dependencies
+* set up the connection with the database using .env file.
+* Run the frontend in localhost:3000 and backend in localhost:8000 or its path.
+
+
+## License 
 MIT
+
+
+
+
