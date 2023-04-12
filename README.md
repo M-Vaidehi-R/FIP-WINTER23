@@ -1,4 +1,4 @@
-#### Database file has been added to the database folder
+
 
 # PLAY FAIR - CAMPAIGN AGAINST THE BULLYING OF LGBTQ+ COMMUNITY IN SPORTS
 
@@ -28,7 +28,7 @@ As a group of passionate individuals, we are dedicated to fighting against the b
 * [Mamatha Ramesh](https://github.com/M-Vaidehi-R) - Backend Developer
 ![fip_playfair](https://user-images.githubusercontent.com/90973094/231346253-93e1911b-87ee-4f7b-bc12-f009e10afd37.jpg)
 
-### This is the backend repository for our project. Click [here](https://www.example.com) for the frontend repository.
+### This is the frontend repository for our project. Click [here](https://github.com/M-Vaidehi-R/FIP_PlayFair_Backend_Lumen) for the backend repository.
 
 ## Usage
 * Clone the repository
