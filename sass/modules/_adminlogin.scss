@@ -1,0 +1,139 @@
+//desktop
+// @media screen and (max-width: 1200px) {
+.admin_login {
+    background-color: var(--color-beige);
+    //border: 2px red solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+    height: 70vh;
+}
+
+.email_login {
+    //border: 2px red solid;
+    width: 20rem;
+    height: 14rem;
+    background-color: var(--color-yellow);
+}
+
+.admin-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+
+    input {
+        width: 17rem;
+        height: 3rem;
+        border: none;
+    }
+
+    button {
+        color: white;
+        width: 20rem;
+        height: 4rem;
+        background-color: var(--color-green);
+        border: none;
+
+    }
+
+    input {
+        color: var(--color-green);
+    }
+}
+
+.login_text {
+    text-align: center;
+    color: var(--color-green);
+    margin-top: 1rem;
+}
+
+
+.mascot_one img {
+    width: 17rem;
+    height: auto;
+    object-fit: cover;
+    //border: 1px red solid;
+
+}
+
+.mascot_two img {
+    width: 32rem;
+    height: auto;
+    object-fit: cover;
+}
+// }
+
+// @media screen and (max-width: 810px) {
+
+//     .admin_login {
+//         background-color: var(--color-beige);
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         justify-content: center;
+//         column-gap: 5rem;
+//         height: 70vh;
+//     }
+    
+//     .email_login {
+//         //border: 2px red solid;
+//         width: 20rem;
+//         height: 14rem;
+//         background-color: var(--color-yellow);
+//     }
+    
+//     .admin-login {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         row-gap: 1rem;
+//         align-items: center;
+//         margin-top: 2rem;
+    
+//         input {
+//             width: 17rem;
+//             height: 3rem;
+//             border: none;
+//         }
+    
+//         button {
+//             color: white;
+//             width: 20rem;
+//             height: 4rem;
+//             background-color: var(--color-green);
+//             border: none;
+    
+//         }
+    
+//         input {
+//             color: var(--color-green);
+//         }
+//     }
+    
+//     .login_text {
+//         text-align: center;
+//         color: var(--color-green);
+//         margin-top: 1rem;
+//     }
+    
+    
+//     .mascot_one img {
+//         width: 17rem;
+//         height: auto;
+//         object-fit: cover;
+//         //border: 1px red solid;
+    
+//     }
+    
+//     .mascot_two img {
+//         width: 32rem;
+//         height: auto;
+//         object-fit: cover;
+//     }
+
+// }

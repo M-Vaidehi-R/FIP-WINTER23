@@ -1,10 +1,29 @@
-<div class="email-login">
+<div class="admin_login">
+  <div class="mascot_one">
+    <img src="/images/mascot_baseball.png" alt="Illustration" />
+  </div>
+
+  <div class="email_login">
+    <h4 class="login_text"><b>Login with your registered email id</b></h4>
+    <form class="admin-login"  method="POST" action="http://localhost:8000/admin/login">
+      <label hidden for="email" aria-placeholder="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="e-mail" />
+      <br />
+      <button type="submit">LogIn</button>
+    </form>
+  </div>
+
+  <div class="mascot_two">
+    <img src="/images/mascot_tennis.png" alt="Illustration" />
+  </div>
+
+</div>
+
+{{! <div class="email-login">
     <form method="POST" action="http://localhost:8000/admin/login">
-    <label for="email">Email:</label>
+    <label for="email" aria-placeholder="email">Email:</label>
     <input type="email" id="email" name="email">
     <br>
     <button type="submit">LogIn</button>
   </form>
-</div>
-
-
+</div> }}
